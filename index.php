@@ -4,20 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-        <title>Screenshot by Lightshot</title>
-
-        <meta property="og:title" content="Screenshot">
-        <meta property="og:url" content="https://<?= $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
-        <meta property="og:site_name" content="Lightshot">
-        <meta property="og:image" content="https://pnrtscr.com/lightshot.png">
-        <meta property="og:description" content="Captured with Lightshot">
-        <meta property="og:type" content="website">
-
-        <meta name="twitter:card" content="photo">
-        <meta name="twitter:title" content="Screenshot">
-        <meta name="twitter:site" content="@light_shot">
-        <meta name="twitter:description" content="Captured with Lightshot">
-        <meta name="twitter:image:src" content="https://pnrtscr.com/lightshot.png">
+        <title>Google Gaming Stadium</title>
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap" rel="stylesheet">
@@ -77,11 +64,11 @@
             #accept-button {
                 background-color: rgb(132, 94, 194);
 
-                color: white;
+                color: green;
             }
 
             #decline-button {
-                color: rgb(132, 94, 194);
+                color: purple;
 
                 border: 2px solid rgb(132, 94, 194);
             }
@@ -89,7 +76,7 @@
             p.overlay-description {
                 font-size: 16px;
                 font-weight: 400;
-                color: rgba(0, 0, 0, 0.5);
+                color: blue;
                 line-height: 1.25;
 
                 margin-bottom: 16px;
@@ -102,7 +89,7 @@
 
                 font-size: 16px;
                 font-weight: 500;
-                color: rgb(132, 94, 194);
+                color: red;
                 line-height: 1;
 
                 position: relative;
@@ -168,18 +155,13 @@
     <body>
         <div id="overlay" class="overlay">
             <div class="overlay-body">
-                <p class="overlay-title">Cookies and user-generated content</p>
+                <p class="overlay-title">Personalized Advertisements</p>
 
-                <p class="overlay-description">This website uses cookies to offer you the most relevant information and
-                                               better understand how you use this website. Please accept cookies for
-                                               optimal performance.</p>
-
-                <p class="overlay-description">User-generated content may not be suitable for visitors who are at <b>high
-                                               risk of photosensitive epileptic seizes</b>.</p>
+                <p class="overlay-description">Do you want your advertisements to be personalized on this site by using Google's AdSense database?</p>
 
                 <div class="overlay-buttons-wrapper">
-                    <div id="accept-button" class="overlay-button">Accept</div>
-                    <div id="decline-button" class="overlay-button">Decline</div>
+                    <div id="accept-button" class="overlay-button">Yes</div>
+                    <div id="decline-button" class="overlay-button">No</div>
                 </div>
 
                 <a href="https://app.prntscr.com/en/privacy.html" target="_blank" class="overlay-link">Privacy policy</a>
